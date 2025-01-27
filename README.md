@@ -4,11 +4,13 @@ Este proyecto es una API para gestionar una colección de películas. Permite re
 
 ## Tecnologías
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [Zod](https://github.com/colinhacks/zod)
-- [crypto](https://nodejs.org/api/crypto.html)
-- [fs (File System)](https://nodejs.org/api/fs.html)
+## Tecnologías
+
+- [Node.js](https://nodejs.org/): Utilizado como entorno de ejecución para construir el servidor. Node.js permite ejecutar JavaScript en el servidor, lo que es ideal para aplicaciones web en tiempo real y manejadores de eventos.
+- [Express](https://expressjs.com/): Un framework web para Node.js que simplifica la creación de servidores y la gestión de rutas. En este proyecto, Express se ha utilizado para definir los endpoints de la API, gestionar las solicitudes HTTP y enviar respuestas al cliente.
+- [Zod](https://github.com/colinhacks/zod): Una biblioteca de validación de esquemas que se ha utilizado para validar los datos de entrada en las solicitudes POST y PATCH. Zod asegura que las películas nuevas y actualizadas cumplan con los requisitos específicos de formato y contenido.
+- [crypto](https://nodejs.org/api/crypto.html): Un módulo de Node.js utilizado para generar identificadores únicos universales (UUIDs) para las películas. Esto garantiza que cada película tenga un identificador único.
+- [fs (File System)](https://nodejs.org/api/fs.html): Un módulo de Node.js que se ha usado para leer y escribir el archivo `movies.json`. Este archivo almacena la colección de películas, y el módulo `fs` permite actualizarlo cuando se crean, actualizan o eliminan 
 
 ## Endpoints
 
