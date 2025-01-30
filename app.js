@@ -103,6 +103,6 @@ app.delete('/movies/:id', (req, res) => {
   return res.status(200).json({ message: 'Movie deleted' });
 });
 
-app.listen(PORT,'::', () => {
-  console.log(`Server listening on port: http://localhost[::]${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server listening on port: http://localhost:${PORT}`);
 });
